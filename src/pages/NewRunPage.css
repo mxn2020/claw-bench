@@ -1,0 +1,55 @@
+.nr-page {
+    padding: var(--space-6);
+    max-width: 640px;
+    margin: 0 auto;
+    padding-top: calc(var(--header-height) + var(--space-6));
+}
+
+.nr-page h1 {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    margin-bottom: var(--space-1);
+}
+
+.nr-page>p {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--space-6);
+}
+
+.nr-section {
+    padding: var(--space-5);
+    margin-bottom: var(--space-5);
+}
+
+.nr-section h2 {
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    margin-bottom: var(--space-4);
+}
+
+.nr-field {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+}
+
+.nr-field:last-child {
+    margin-bottom: 0;
+}
+
+.nr-field label {
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    color: var(--color-text-secondary);
+}
+
+.nr-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+}

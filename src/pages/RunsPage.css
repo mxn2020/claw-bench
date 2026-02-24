@@ -1,0 +1,28 @@
+.runs-page {
+    padding: var(--space-6);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: calc(var(--header-height) + var(--space-6));
+}
+
+.runs-header {
+    margin-bottom: var(--space-6);
+}
+
+.runs-header h1 {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+}
+
+.runs-header p {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    margin-top: var(--space-1);
+}
+
+.runs-table-wrap {
+    overflow-x: auto;
+}

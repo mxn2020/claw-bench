@@ -1,0 +1,51 @@
+.lb-page {
+    padding: var(--space-6);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: calc(var(--header-height) + var(--space-6));
+}
+
+.lb-header {
+    margin-bottom: var(--space-6);
+}
+
+.lb-header h1 {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+}
+
+.lb-header p {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    margin-top: var(--space-1);
+}
+
+.lb-table-wrap {
+    overflow-x: auto;
+}
+
+.lb-rank {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-family: var(--font-mono);
+    color: var(--color-text-secondary);
+}
+
+.lb-rank.top {
+    color: var(--color-accent-primary);
+}
+
+.lb-score {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
