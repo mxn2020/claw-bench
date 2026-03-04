@@ -1,4 +1,5 @@
 import { Trophy, Medal, ArrowUp, ArrowDown, Minus } from "lucide-react";
+import { Card } from "@geenius-ui/react-css";
 import "./LeaderboardPage.css";
 
 const leaderboard = [
@@ -33,7 +34,7 @@ export default function LeaderboardPage() {
                 <p>Comparing LLM performance across agent benchmarks</p>
             </div>
 
-            <div className="lb-table-wrap card">
+            <Card padding="none" className="lb-table-wrap">
                 <table className="data-table">
                     <thead>
                         <tr>
@@ -77,7 +78,7 @@ export default function LeaderboardPage() {
                         ))}
                     </tbody>
                 </table>
-            </div>
+            </Card>
         </div>
     );
 }

@@ -1,4 +1,5 @@
 import { BarChart3, CheckCircle, XCircle, Clock } from "lucide-react";
+import { Card, Badge } from "@geenius-ui/react-css";
 import "./RunsPage.css";
 
 const runs = [
@@ -13,9 +14,9 @@ const runs = [
 ];
 
 function StatusBadge({ status }: { status: "completed" | "running" | "failed" }) {
-    if (status === "completed") return <span className="badge badge-green"><CheckCircle size={10} /> Completed</span>;
-    if (status === "running") return <span className="badge badge-blue"><Clock size={10} /> Running</span>;
-    return <span className="badge badge-red"><XCircle size={10} /> Failed</span>;
+    if (status === "completed") return <Badge variant="success"><CheckCircle size={10} /> Completed</Badge>;
+    if (status === "running") return <Badge variant="info"><Clock size={10} /> Running</Badge>;
+    return <Badge variant="error"><XCircle size={10} /> Failed</Badge>;
 }
 
 export default function RunsPage() {
@@ -25,7 +26,7 @@ export default function RunsPage() {
                 <h1><BarChart3 size={20} /> Benchmark Runs</h1>
                 <p>History of all benchmark executions</p>
             </div>
-            <div className="runs-table-wrap card">
+            <Card padding="none" className="runs-table-wrap">
                 <table className="data-table">
                     <thead>
                         <tr>
@@ -56,7 +57,7 @@ export default function RunsPage() {
                         ))}
                     </tbody>
                 </table>
-            </div>
+            </Card>
         </div>
     );
 }
