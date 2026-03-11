@@ -1,5 +1,6 @@
-id: a8139b1e-4cc0-46dd-9724-02adf1f21924
 name: claw-bench
+project_scope: main
+project_type: standalone
 description: Claw Bench
 tier: prototype
 lane: oss
@@ -9,5 +10,6 @@ stack: [typescript, react, convex, vite]
 repo: "https://github.com/mxn2020/claw-bench"
 deploy_url: null
 last_active: 2026-02-24
-tags: []
-notes: 
+tags: [openclaw, benchmarks, testing, performance, ai, evaluation, metrics]
+notes: null
+id: a8139b1e-4cc0-46dd-9724-02adf1f21924
