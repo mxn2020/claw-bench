@@ -3,7 +3,7 @@
 > 🧪 Agent benchmarking platform for comparing LLM performance.
 
 [![CI](https://github.com/mxn2020/claw-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/mxn2020/claw-bench/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 
 Compare AI models across accuracy, latency, cost, and reliability for agent tasks.
 
@@ -31,3 +31,7 @@ npx vitest run
 ## 📄 License
 
 MIT © [Mehdi Nabhani](https://github.com/mxn2020)
+
+---
+
+> **License note:** As of 2026-10-23 this project is licensed under the Apache License 2.0 (previously MIT). Versions released before this change remain available under MIT to those who received them.

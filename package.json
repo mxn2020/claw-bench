@@ -40,7 +40,7 @@
   },
   "description": "Benchmarking tool for CLaw ecosystem performance metrics",
   "author": "Mehdi Nabhani",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": [
     "claw",
     "bench",
