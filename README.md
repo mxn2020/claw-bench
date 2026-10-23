@@ -30,7 +30,7 @@ npx vitest run
 
 ## 📄 License
 
-MIT © [Mehdi Nabhani](https://github.com/mxn2020)
+MIT © [AVS Media](https://github.com/mxn2020)
 
 ---
 
